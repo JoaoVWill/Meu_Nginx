@@ -10,7 +10,7 @@ apt install nginx
       - Abrir navegador (Edge será a melhor alternativa)
       - Na guia de pesquisa: `http://*.*.*.*`[^1]
       - Exemplo: 
-       <img align="center" alt="Exemplo_de_site" height="350" width="600" src="https://cdn.discordapp.com/attachments/764827072652247090/956562460951842936/MicrosoftTeams-image_1.png">
+       <img align="center" alt="Exemplo_de_site" height="400" width="700" src="https://cdn.discordapp.com/attachments/764827072652247090/956562460951842936/MicrosoftTeams-image_1.png">
    
   3. Alteração do Texto do site Default
 ```ruby
