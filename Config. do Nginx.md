@@ -21,6 +21,8 @@ vim /var/www/html/index.nginx-debian.html
   <img align="center" alt="Exemplo_de_site" height="350" width="600" src="https://cdn.discordapp.com/attachments/764827072652247090/956569263114715186/unknown.png">
   </div>
   
+  *Anotação: Não usar acentos por que pode dar erro (nesse projeto pelo menos)*
+  
   4.
 
 
