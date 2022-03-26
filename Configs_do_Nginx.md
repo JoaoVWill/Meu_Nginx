@@ -40,12 +40,16 @@ cd /etc/nginx/sites-available
   <img align="center" alt="arquivo_de_conf" src="https://cdn.discordapp.com/attachments/759062113808809994/957269119487574076/unknown.png">
   </div>
 
-*`site_novo` pode ser alterado por um de sua escolha*
+*Anotação: `site_novo` pode ser alterado por um de sua escolha*
 
   - Editar seu arquivo [Arquivo em .txt](https://github.com/jvwill/Meu_Nginx/blob/main/Arquivo-Site_Novo.txt)
 <div align="left">
   <img align="center" alt="arquivo_de_conf" src="https://cdn.discordapp.com/attachments/759062113808809994/957274048621064282/unknown.png">
   </div>
+  
+  ___LEGENDA:___
+  - server: começo da configuração a ser lida
+    - listen
 
 
 
