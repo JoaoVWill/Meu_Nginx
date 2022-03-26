@@ -32,25 +32,44 @@ cd /etc/nginx/sites-available
   </div>
   
   - Criar arquivo texto de configuração do site
-  ```ruby
+```ruby
   vim [NOME_DO_ARQUIVO]
-  ```
+```
 
 <div align="left">
   <img align="center" alt="arquivo_de_conf" src="https://cdn.discordapp.com/attachments/759062113808809994/957269119487574076/unknown.png">
   </div>
 
-*Anotação: `site_novo` pode ser alterado por um de sua escolha*
+*Anotação: [^2]*
 
   - Editar seu arquivo [Arquivo em .txt](https://github.com/jvwill/Meu_Nginx/blob/main/Arquivo-Site_Novo.txt)
 <div align="left">
   <img align="center" alt="arquivo_de_conf" src="https://cdn.discordapp.com/attachments/759062113808809994/957274048621064282/unknown.png">
-  </div>
+</div>
   
   ___LEGENDA:___
   - server: começo da configuração a ser lida
-    - listen
+    - listen: porta ser ouvida (no caso 81)
+    - server_name: como será o nome do server
+    - location: será onde procurar o arquivo quando houver requisição 
+    - root: será a raiz dos arquivos, a partir da onde os arquivos começam a ser procurados
+    - index: será o nome a procurar do nosso arquivo **Index**
 
+  5. Copiar arquivo para o diretório `sites-enabled`
+```ruby
+cp /etc/nginx/sites-available/[NOME_DO_ARQUIVO] /etc/nginx/sites-enabled
+```
+<div align="left">
+  <img align="center" alt="arquivo_de_conf" src="https://cdn.discordapp.com/attachments/759062113808809994/957352222935613560/unknown.png">
+</div>
+
+  6. Criar arquivo ___Index___ para o site novo
+```ruby
+vim /var/www/html/[NOVO_ARQ_INDEX]
+```
+<div align="left">
+  <img align="center" alt="arquivo_de_conf" src="https://cdn.discordapp.com/attachments/759062113808809994/957355336782712902/unknown.png">
+</div>
 
 
 
@@ -72,3 +91,4 @@ cd /etc/nginx/sites-available
 
 
 [^1]:`*.*.*.*` = Ip da sua máquina
+[^2]: `site_novo` = Nome do meu arquivo, pode ser alterado
