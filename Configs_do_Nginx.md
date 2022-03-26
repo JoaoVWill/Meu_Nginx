@@ -12,7 +12,7 @@ apt install nginx
       - Exemplo: 
        <img align="center" alt="Exemplo_de_site" height="400" width="700" src="https://cdn.discordapp.com/attachments/764827072652247090/956562460951842936/MicrosoftTeams-image_1.png">
    
-  3. Alteração do Texto do site Default
+  3. Alteração do Texto do site Default (porta 80)
 ```ruby
 vim /var/www/html/index.nginx-debian.html
 ```
@@ -23,9 +23,22 @@ vim /var/www/html/index.nginx-debian.html
   
   *Anotação: Não usar acentos por que pode dar erro (nesse projeto pelo menos)*
   
-  4.
+  4. Criação do arquivo do novo site
+```ruby
+cd /etc/nginx/sites-available
+```
+  <div align="left">
+  <img align="center" alt="Caminho_sites-available" height="40" width="800" src="https://cdn.discordapp.com/attachments/759062113808809994/957266219923300382/unknown.png">
+  </div>
+  
+  - Criar arquivo texto de configuração do site
+  ```ruby
+  vim [NOME_DO_ARQUIVO]
+  ```
 
-
+<div align="left">
+  <img align="center" alt="Criação_ar" height="40" width="800" src="https://cdn.discordapp.com/attachments/759062113808809994/957269119487574076/unknown.png">
+  </div>
 
 
 
