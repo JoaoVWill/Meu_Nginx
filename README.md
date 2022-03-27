@@ -5,4 +5,4 @@
 - Configurar dois sites ✔️
   - Site 1 acessar pela porta 80 (default) ✔️
   - Site 2 acessar pela porta 81 (novo) ✔️
-  - Alterar Homepages ❌
+  - Alterar Homepages ✔️
